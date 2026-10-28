@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fuel Cell Stack Exploder</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</head>
+
+<body>
+    <div id="popup-overlay">
+        <div id="component-popup">
+            <div id="popup-content">
+
+            <button id="popup-close"><ion-icon name="close-outline"></ion-icon></button>
+
+            <div id="popup-header">
+                <h1 id="popup-title"></h1>
+                <div id="popup-accent-bar"></div>
+            </div>
+
+            <div id="popup-description"></div>
+
+            <div id="popup-extra"></div>
+
+            </div>
+        </div>
+    </div>
+ 
+    <div id="button-container">
+        <button id="explode-button">Explode</button>
+        <button id="assemble-button">Assemble</button>
+    </div>
+ 
+    <div id="viewer-container"></div> 
+ 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+ 
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/loaders/GLTFLoader.js"></script>
+ 
+    <script src="script.js"></script>
+ 
+    </body>
+</html>
